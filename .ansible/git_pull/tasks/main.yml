@@ -1,4 +1,4 @@
-name: Pull app changes
+- name: Pull app changes
 git:
   repo: "git@github.com:{{ GITHUB_REPO }}.git"
   dest: "{{ dir }}"
