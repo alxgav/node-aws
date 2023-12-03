@@ -1,4 +1,4 @@
--name: Build docker image
+- name: Build docker image
 docker_image:
   name: node_aws_image
   force_source: true
@@ -7,7 +7,7 @@ docker_image:
     path: "{{ APP_PATH }}"
     dockerfile: .docker/Dockerfile
 
--name: Run docker container
+- name: Run docker container
 docker_container:
   name: node_aws
   image: node_aws_image
