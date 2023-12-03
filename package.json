@@ -1,0 +1,38 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "Node.js AWS server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxgav/node-aws.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "ubuntu",
+    "linux",
+    "ci",
+    "cd",
+    "node",
+    "express",
+    "docker",
+    "ansible"
+  ],
+  "author": "Oleksii Hazukin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alxgav/node-aws/issues"
+  },
+  "homepage": "https://github.com/alxgav/node-aws#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
