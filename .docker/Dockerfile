@@ -11,4 +11,4 @@ RUN npm install --omit=dev
 
 EXPOSE 3000/tcp
 
-CMD ["nmp", "run", "start"]
+CMD ["npm", "run", "start"]
