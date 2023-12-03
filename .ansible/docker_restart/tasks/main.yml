@@ -11,10 +11,11 @@
   docker_container:
     name: node_aws
     image: node_aws_image
-    restart: true
     recreate: true
+    restart: true
     ports:
-    # 3000:3000
+      # 3000:3000
+      # in system (server) : in container (docker)
       - "{{ APP_PORT }}:{{ APP_PORT }}"
     env:
-      NODE_ENV: "NODE_ENV"
+      NODE_ENV: "{{ NODE_ENV }}"

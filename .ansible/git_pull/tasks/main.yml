@@ -1,7 +1,6 @@
 - name: Pull app changes
   git:
     repo: "git@github.com:{{ GITHUB_REPO }}.git"
-    dest: "{{ dir }}"
+    dest: "{{ APP_PATH }}"
     single_branch: yes
     version: main
-
